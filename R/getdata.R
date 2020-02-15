@@ -11,7 +11,6 @@
 
      colnames(hap_data)<- c("rank","country","score","gdp","social","lifexp","freedom","generosity","corruption")
 
-     # usethis::use_data(hap_data, overwrite = TRUE)
 
     return(hap_data)
 }
